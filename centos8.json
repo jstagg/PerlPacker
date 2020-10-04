@@ -1,0 +1,13 @@
+{
+  "_comment": "Build with `packer build -var-file=centos8.json centos.json`",
+  "vm_name": "centos8",
+  "cpus": "1",
+  "disk_size": "65536",
+  "http_directory": "kickstart/centos8",
+  "iso_checksum": "47ab14778c823acae2ee6d365d76a9aed3f95bb8d0add23a06536b58bb5293c0",
+  "iso_checksum_type": "sha256",
+  "iso_name": "CentOS-8.2.2004-x86_64-minimal.iso",
+  "iso_url": "https://mirrors.edge.kernel.org/centos/8.2.2004/isos/x86_64/CentOS-8.2.2004-x86_64-minimal.iso",
+  "memory": "512",
+  "parallels_guest_os_type": "centos8"
+}
